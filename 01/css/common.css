@@ -1519,12 +1519,10 @@ strong {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  gap: 7px;
 }
 
 .m-sec3Block__facility_list_item {
@@ -1537,6 +1535,13 @@ strong {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.m-sec3Block__facility_list_item .photo .caption {
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  letter-spacing: 0;
 }
 
 .m-sec3Block__facility_list_txt {
@@ -4190,6 +4195,7 @@ strong {
   }
   .m-sec3Block__facility_list {
     margin-bottom: 3.2vw;
+    gap: 1.333333vw 0.8vw;
   }
   .m-sec3Block__facility_list_item {
     width: 37.33333vw;
