@@ -1985,6 +1985,7 @@ print {
   }
 
   .m-gallery__table__td {
+    font-size: 15px;
     line-height: 1.6;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -2300,6 +2301,10 @@ print {
 
   .m-sec1Block__table_notice {
     font-size: 10px;
+  }
+  .m-sec1 .boxBg + .caption {
+    margin-top: 20px;
+    font-size: 12px;
   }
 
   .airportSection {
@@ -3785,6 +3790,11 @@ print {
 
   .m-sec1Block__table_notice {
     font-size: 2.93333vw;
+  }
+  
+  .m-sec1 .boxBg + .caption {
+    margin-top: 10px;
+    font-size: 12px;
   }
 
   .m-sec1_bg-white {
