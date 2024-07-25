@@ -834,7 +834,6 @@ strong {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background: url(../img/bg-dot.gif) repeat-x 0 22px;
   font-size: 20px;
   letter-spacing: 0.12em;
   line-height: 1;
