@@ -174,8 +174,8 @@ $(function () {
         showPointTarget = $(".m-kvMain");
         var html = '';
         html += '<div class="m-fixedBottomButtons"><div class="m-fixedBottomButtons__inner">';
-        html += '<div class="m-fixedBottomButtons__item"><a href="https://ms.ohd.openhouse-group.com/form/kanto/request/kagurazaka-p/">カタログをもらう</a></div>';
-        html += '<div class="m-fixedBottomButtons__item"><a href="https://ms.ohd.openhouse-group.com/form/kanto/reserve/kagurazaka-p/">来場予約をする</a></div>';
+        html += '<div class="m-fixedBottomButtons__item"><a href="https://ms.ohd.openhouse-group.com/form/kanto/request/itabashi-g/">カタログをもらう</a></div>';
+        html += '<div class="m-fixedBottomButtons__item"><a href="https://ms.ohd.openhouse-group.com/form/kanto/reserve/itabashi-g/">来場予約をする</a></div>';
         html += '</div>';
         target = $(html).appendTo($("body"));
         onResize();
