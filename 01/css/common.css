@@ -5454,3 +5454,10 @@ strong {
       margin-bottom: 10px !important;
   }
 }
+
+/*
+オーダーシステムの記載削除のため、「洗練されたデザイン」コンテンツを非表示
+*/
+.m-sec5Block:last-child {
+  display: none;
+}
